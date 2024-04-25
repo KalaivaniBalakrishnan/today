@@ -1,1 +1,78 @@
 hi 
+
+Microsoft Windows [Version 10.0.22000.613]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Student>git init
+Initialized empty Git repository in C:/Users/Student/.git/
+
+C:\Users\Student>mkdir kec
+
+C:\Users\Student>cd kec
+
+C:\Users\Student\kec>git clone https://github.com/KalaivaniBalakrishnan/today.git
+Cloning into 'today'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+C:\Users\Student\kec>cd today
+
+C:\Users\Student\kec\today>cat >a.txt
+'cat' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Student\kec\today>cat > a.txt
+'cat' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Student\kec\today>echo hi > a.txt
+
+C:\Users\Student\kec\today>git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+C:\Users\Student\kec\today>git add .
+
+C:\Users\Student\kec\today>git commit -m "1st"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Student@ITP-CC3-9.(none)')
+
+C:\Users\Student\kec\today>git config --global user.email "kalaivanib.21cse@kongu.edu"
+
+C:\Users\Student\kec\today>git config --global user.name "kalaivani"
+
+C:\Users\Student\kec\today>git commit -m "1st"
+[main 62e35c9] 1st
+ 1 file changed, 1 insertion(+)
+ create mode 100644 a.txt
+
+C:\Users\Student\kec\today>git push
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 270 bytes | 270.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/KalaivaniBalakrishnan/today.git
+   a6b8c0b..62e35c9  main -> main
+
+C:\Users\Student\kec\today>git push
+Everything up-to-date
+
+C:\Users\Student\kec\today>
